@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   }
+body{
+   font-family: 'Roboto', sans-serif;
+}
+.amboxj{
+   display: flex;
+   flex-direction: column;
+   margin-left: 10px;
+   width: 400px;
+}
+.form{
+   margin-top: 30px;
+}
+h1{
+   color: rgb(16, 133, 211);
+   margin-left: 15px;
+}
+.arajin{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+}
+.erkrord{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+}
+ .fff{
+   display: flex;
+   flex-direction: column;
+   padding-left: 15px;
+} 
+#required{
+   font-weight:bold;
+   color:#F00;
+   font-size: 14px;
+}
+.form_item input, .form_item select, .form_item textarea{
+   width: 94%;
+   padding: 5px;
+   border-radius: 3px;
+   border: 1px solid #ccc;
+   box-shadow: 0 0 7px rgba(0,0,0,0.1); /* Параметры тени */
+   padding: 10px;
+}
+.form_item label{
+margin: 10px 0px;
+display: block;
+}
+.form_item textarea{
+height: 200px;
+}
+.form_btn{
+padding: 7px 30px;
+background-color: #1aabee;
+border: 1px solid #94b0ad;
+color: #fff;
+border-radius: 3px;
+cursor: pointer;
+transition: all .25s ease;
+margin-top: 20px;
+margin-left: 15px; 
+}
+.form_btn:hover{
+background-color: #c0c2c2;
+border-color: #c0c2c2;
+}
